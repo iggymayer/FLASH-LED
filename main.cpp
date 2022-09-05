@@ -94,11 +94,11 @@ void loop()
   switch (state)
   {
   case 0:
-    Strobe();
+    SOS();
     break;
 
   case 1:
-    SOS();
+    Strobe();
     break;
 
   default:
