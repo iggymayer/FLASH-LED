@@ -25,59 +25,59 @@ void SOS()
 {
   // S
   digitalWrite(LED, HIGH);
-  delayMicroseconds(200000);
+  delay(200);
   digitalWrite(LED, LOW);
-  delayMicroseconds(200000);
+  delay(200);
 
   digitalWrite(LED, HIGH);
-  delayMicroseconds(200000);
+  delay(200);
   digitalWrite(LED, LOW);
-  delayMicroseconds(200000);
+  delay(200);
 
   digitalWrite(LED, HIGH);
-  delayMicroseconds(200000);
+  delay(200);
   digitalWrite(LED, LOW);
-  delayMicroseconds(500000);
+  delay(500);
 
   // O
   digitalWrite(LED, HIGH);
-  delayMicroseconds(400000);
+  delay(400);
   digitalWrite(LED, LOW);
-  delayMicroseconds(200000);
+  delay(200);
 
   digitalWrite(LED, HIGH);
-  delayMicroseconds(400000);
+  delay(400);
   digitalWrite(LED, LOW);
-  delayMicroseconds(200000);
+  delay(200);
 
   digitalWrite(LED, HIGH);
-  delayMicroseconds(400000);
+  delay(400);
   digitalWrite(LED, LOW);
-  delayMicroseconds(500000);
+  delay(500);
 
   // S
   digitalWrite(LED, HIGH);
-  delayMicroseconds(200000);
+  delay(200);
   digitalWrite(LED, LOW);
-  delayMicroseconds(200000);
+  delay(200);
 
   digitalWrite(LED, HIGH);
-  delayMicroseconds(200000);
+  delay(200);
   digitalWrite(LED, LOW);
-  delayMicroseconds(200000);
+  delay(200);
 
   digitalWrite(LED, HIGH);
-  delayMicroseconds(200000);
+  delay(200);
   digitalWrite(LED, LOW);
-  delayMicroseconds(1300000);
+  delay(1300);
 }
 
 void Strobe()
 {
   digitalWrite(LED, HIGH);
-  delayMicroseconds(20000);
+  delay(20);
   digitalWrite(LED, LOW);
-  delayMicroseconds(5000000);
+  delay(5000);
 }
 
 void setup()
